@@ -37,7 +37,6 @@ book_array.sort do |a, b|
 end
 
 book_array.sort do |a, b|
-  #a.copies <=> b.copies
   a.count <=> b.count
 end
 
