@@ -21,13 +21,13 @@ new_array = book_array.sort do |a, b|
   author1 = a.author.downcase
   author2 = b.author.downcase
   author1 <=> author2
-  if author1 > author2
-    1
-  elsif author1 < author2
-    -1
-  else
-    0
-  end
+  #if author1 > author2
+  #  1
+  #elsif author1 < author2
+  #  -1
+  #else
+  #  0
+  #end
 end
 puts new_array
 
